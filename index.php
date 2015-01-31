@@ -1,13 +1,13 @@
 <!doctype html>
 <html>
-<?php include_once ('head-info.php'); ?>
+<?php include_once ('head.php'); ?>
 <body>
 <div id="wrapper">
-<?php include_once ('navigation.php'); ?>
+<?php include_once ('nav.php'); ?>
 <div id="content">
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 col-offset-3 drink_section">
+		<div class="col-md-6 col-offset-3">
 			<div id='drink_table'></div>
 		</div><!--col-md-6-->
 	</div><!--row-->
