@@ -33,7 +33,7 @@
 	google.load('visualization', '1', {packages:['table']});
 	google.setOnLoadCallback(drawTable);
 	function drawTable() {
-		var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=0Asl09SxrwsI2dEJIZVhXWGVKTzR4ajllTFdHLWFBRkE&gid=22');
+		var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1Drn1soYe5HLCa-7J_oWoeNYg-OdX7i8q2LD6OZhpDNQ&gid=46038258');
 		query.send(handleQueryResponse);
 	}
 	
@@ -80,14 +80,6 @@
 			table.draw(bottle, options);
 		}
 		
-		var drink = new google.visualization.DataView(data);
-		drink.setColumns([0,17,18]),drink.setRows(drink.getFilteredRows([{column:2, minValue:'0'}]));
-		var drinkCount = drink.getNumberOfRows();
-		if (drinkCount > 0) {
-			var table = new google.visualization.Table(document.getElementById('drink_table'));
-			table.draw(drink, options);
-		}
-		
 		if ( secCount > 0) {
 			$(".sec_section").prepend("<h3>Ready to Secondary</h3>");
 		}
@@ -96,9 +88,6 @@
 		}
 		if ( bottleCount > 0) {
 			$(".bottle_section").prepend("<h3>Ready for Bottling</h3>");
-		}
-		if ( drinkCount > 0) {
-			$(".drink_section").prepend("<h3>Bottled & Ready</h3>");
 		}
 	}
 </script>
