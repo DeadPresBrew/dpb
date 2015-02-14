@@ -4,7 +4,6 @@
 	<title>DPB</title>
 	<link rel="stylesheet" href="style/site.css">
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script typw="text/javascript" src="js/dpb.js"></script>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript" src="js/dropdown.js"></script>
     <script type="text/javascript" src="js/collapse.js"></script>

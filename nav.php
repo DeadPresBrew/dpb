@@ -14,7 +14,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="index.php">Beers<span class="sr-only"></span></a></li>
 					<li><a href="schedule.php">Schedule</a></li>
-					<li><a href="#">Review</a></li>
+					<li><a href="review.php">Review</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
