@@ -37,9 +37,9 @@
 		};
 		
 		var options = {'showRowNumber': false, 'allowHtml': true, 'alternatingRowStyle': false, 'cssClassNames': cssClassNames};	  
-		
+			
 		var drink = new google.visualization.DataView(data);
-		drink.setColumns([0,1,2,17,18]),drink.setRows(drink.getFilteredRows([{column:4, minValue:'0'}]));
+            drink.setColumns([0,1,2,17,18]),drink.setRows(drink.getFilteredRows([{column:3, minValue:'0'}]));
 			var table = new google.visualization.Table(document.getElementById('drink_table'));
 			table.draw(drink, options);
 	}
